@@ -15,9 +15,19 @@ ul li{
     color: white;
 }
 
-i{
+h2{
+    font-size: 20px;
     color: white;
-    margin-left: 20px;
+}
+
+h3{
+    font-size: 18px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -73,7 +83,6 @@ i{
     padding: 10px 15px;
 }
 
-
 /* header */
 header{
     position: fixed;
@@ -95,8 +104,12 @@ header{
     margin: 0 20px;
 }
 
-/* main */
+header i{
+    color: white;
+    margin-left: 20px;
+}
 
+/* main */
 .conteiner-main{
     justify-content: space-between;
     margin-top: 120px;
@@ -146,5 +159,22 @@ header{
     line-height: 15px;
     font-size: 15px;
     text-decoration: line-through;
+}
+
+/* footer */
+footer{
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.conteiner-footer{
+    justify-content: space-between;
+}
+
+footer i{
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
 }
 
