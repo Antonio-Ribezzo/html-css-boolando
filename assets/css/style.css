@@ -20,16 +20,16 @@ i{
     margin-left: 20px;
 }
 
+
 /* utility */
 .flex-row{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .flex-column{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .conteiner-center{
@@ -37,8 +37,44 @@ i{
     width: 80%;
 }
 
-/* header */
+.relative{
+    position: relative;
+}
 
+.absolute{
+    position: absolute;
+}
+
+.label{
+    bottom: 20px;
+    left: 0;
+}
+
+.label-red{
+    background-color: red;
+    color: white;
+    padding: 1px 8px;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.label-green{
+    background-color: green;
+    color: white;
+    padding: 1px 8px;
+    margin-left: 2px;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.heart{
+    background-color: white;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+
+/* header */
 header{
     position: fixed;
     top: 0;
@@ -46,8 +82,8 @@ header{
     left: 0;
     background-color: #ff6900;
     padding: 20px 0;
-    font-size: 18px;
     font-family: 'Jaldi', sans-serif;
+    font-size: 18px;
 }
 
 .conteiner-header{
@@ -56,5 +92,59 @@ header{
 
 .uomo{
     margin: 0 20px;
+}
+
+/* main */
+
+/* main{
+    margin-top: 1000px;
+} */
+.conteiner-main{
+    justify-content: space-between;
+    flex-basis: calc(100% / 3);
+    margin-top: 120px;
+    flex-wrap: wrap;
+}
+
+.img{
+    background-color: lightgray;
+    width: 320px;
+    height: 450px;
+}
+
+.conteiner-card{
+    margin-bottom: 40px;
+}
+
+.info-product{
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 1);
+    margin: 2px 0;
+}
+
+.brand{
+    line-height: 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: 100;
+
+}
+
+.description{
+    line-height: 18px;
+    font-size: 18px;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.price-red{
+    line-height: 15px;
+    font-size: 15px;
+    color: red;
+}
+
+.price-black{
+    line-height: 15px;
+    font-size: 15px;
+    text-decoration: line-through;
 }
 
