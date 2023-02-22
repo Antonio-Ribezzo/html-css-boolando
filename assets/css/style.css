@@ -83,6 +83,10 @@ a{
     padding: 10px 15px;
 }
 
+.heart:hover{
+    color:red;
+}
+
 /* header */
 header{
     position: fixed;
@@ -116,24 +120,23 @@ header i{
     flex-wrap: wrap;
 }
 
-.img{
-    background-color: lightgray;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+.img-conteiner>img{
+    display: block;
+    /* visibility: hidden; */
 }
 
-.img>img{
-    display: block;
+.img-hidden{
+    position: absolute;
+    top: 0;
+    opacity: 0;
 }
+
+.img-hidden:hover{
+    opacity: 1;
+}
+
 .conteiner-card{
     margin-bottom: 40px;
-}
-
-.info-product{
-    flex-wrap: wrap;
-    margin: 2px 0;
 }
 
 .brand{
