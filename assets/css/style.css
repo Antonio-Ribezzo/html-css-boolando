@@ -7,7 +7,6 @@
 
 ul{
     list-style: inside;
-    /* margin-top: 30px; */
 }
 
 ul li{
@@ -90,7 +89,7 @@ a{
 /* header */
 header{
     position: fixed;
-    z-index: 2;
+    z-index: 99999;
     top: 0;
     right: 0;
     left: 0;
@@ -120,9 +119,13 @@ header i{
     flex-wrap: wrap;
 }
 
+.conteiner-card{
+    margin-bottom: 40px;
+    width: calc(90% / 3);
+}
+
 .img-conteiner>img{
     display: block;
-    /* visibility: hidden; */
 }
 
 .img-hidden{
@@ -133,10 +136,6 @@ header i{
 
 .img-hidden:hover{
     opacity: 1;
-}
-
-.conteiner-card{
-    margin-bottom: 40px;
 }
 
 .brand{
@@ -181,3 +180,6 @@ footer i{
     margin-right: 5px;
 }
 
+.conteiner-footer .info{
+    margin-right: 10px;
+}
